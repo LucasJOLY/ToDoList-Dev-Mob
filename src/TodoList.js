@@ -62,11 +62,13 @@ function TodoList() {
             <ul>
                 {todos.map((todo, index) => (
                     <li key={index}>
+                        <div id="index_num">{index+1}</div>
                         <div class="checkbox">
                         <input
                             type="checkbox"
                             checked={todo.done}
                             onChange={() => taskDone(index)}
+
                         />
                         {editIndex === index ? (
                             <input class="input_edit"

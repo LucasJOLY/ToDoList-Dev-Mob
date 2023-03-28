@@ -29,7 +29,11 @@ form {
     font-size: 1.2rem;
 
 }
-
+#index_num{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
 
 button {
     background-color: #333;
