@@ -1,0 +1,158 @@
+body{
+    background-color: rgb(17, 17, 17);
+    color: rgb(242, 243, 244);
+}
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input_add{
+    border: none;
+    border-radius: 10px;
+    border-bottom: 2px solid #333;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.input_edit{
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 2px solid #333;
+    font-size: 1.2rem;
+
+}
+
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+li span {
+    font-size: 1.2rem;
+}
+
+li button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+li button:hover {
+    background-color: #d32f2f;
+}
+
+li input[type='checkbox'] {
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+
+li input[type='checkbox']:checked + span {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.checkbox {
+    display: flex;
+    width: 70%;
+}
+
+.buttons_list {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.item_text {
+    text-align: left;
+    margin-left: 1em;
+    overflow: hidden;
+    text-overflow: fade;
+    width: 60%;
+
+}
+
+.createForm {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555555;
+    margin-left: 1em;
+}
+
+.icons:hover {
+    cursor: pointer;
+    transition-duration: 0.1s;
+    transform: scale(1.1);
+}
+
+.penIcon:hover {
+    color: #007bff
+}
+
+.trashIcon:hover, .iconCancel:hover {
+    color: #ff0000
+}
+
+.iconPlus {
+    color: rgb(242, 243, 244);
+    margin-left: 0.5em;
+    font-size: 1.5em;
+}
+
+.iconCancel {
+    color: rgb(242, 243, 244);
+    margin-left: 0.5em;
+    font-size: 1.5em;
+}
+
+.iconPlus:hover {
+    color: #00ff66
+}
